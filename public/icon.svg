@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Dark Background -->
+  <rect x="4" y="4" width="92" height="92" rx="24" fill="#050816" stroke="url(#borderGrad)" stroke-width="4" />
+  
+  <!-- Monogram FK -->
+  <text 
+    x="50" 
+    y="65" 
+    text-anchor="middle" 
+    fill="url(#gradient)" 
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-size="44" 
+    font-weight="900" 
+    letter-spacing="-1.5"
+  >
+    FK
+  </text>
+</svg>
